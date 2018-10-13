@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SUMphora | Browsing Sephora online reviews made easy </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="../static/css/landing-page.min.css" rel="stylesheet">
+
+</head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">reviewSUM</a>-->
+        <!-- <a class="btn btn-primary" href="#">Sign In</a>-->
+      <!-- </div> -->
+  <!--  </nav> -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+       <div class="container">
+         <a class="navbar-brand" href="#">SUMphora</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+               <a href="{{url_for('index')}}" class="btn btn-primary" role="button">Home
+                 <span class="sr-only">(current)</span>
+               </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+
+
+
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h2 class="my-4"> {{brand}}</h2>
+        <h3> {{productname}} </h3>
+
+
+      <!-- Portfolio Item Row -->
+      <!-- <div class="row"> -->
+
+        <!-- <div class="col-md-8">
+          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+        </div> -->
+       <!-- <div class="col-md-8">
+         <img class="img-fluid" src="../static/img/sephora_images/{{pid}}.jpg" alt="">
+        </div>
+
+
+        <div class="col-md-4">
+          <h3 class="my-3">Product Info</h3>
+         <ul>
+           <li> Overall rating: {{rating}} </li>
+           <li> Price: {{price}} </li>
+         </ul>
+
+          <h3 class="my-3">Review summary</h3>
+          <p> {{summary}} </p>
+
+        </div>
+
+      </div> -->
+      <!-- /.row -->
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5 col-md-pull-7">
+          <img class="img-fluid" src="../static/img/sephora_images/{{pid}}.jpg" alt="">
+        </div>
+        <div class="col-md-7 col-md-push-5">
+          <h3 class="my-3">Product Info</h3>
+         <ul>
+           <li> Overall rating: {{rating}}/5 </li>
+           <li> Price: {{price}} </li>
+         </ul>
+        <h3 class="my-3">Review summary</h3>
+          <p> {{summary}} </p>
+         </div>
+      </div>
+
+
+
+
+      <!-- Related Projects Row -->
+      <!-- <h3 class="my-4">Top 4 most helpful reviews</h3>
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <p> {{helpful1}} </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <p> {{helpful2}} </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <p> {{helpful3}} </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <p> {{helpful4}} </p>
+        </div>
+
+      </div> -->
+      <!-- /.row -->
+
+    <!-- </div> -->
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <!-- <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Insight Toronto 2018</p>
+      </div> -->
+      <!-- /.container -->
+    <!-- </footer> -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
