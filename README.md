@@ -2,7 +2,7 @@
 build SUMphora.site through flask
 
 These are the code used to build the website: http://www.sumphora.site/, where you can find the automatic summary of helpful reviews
-for product sold on Sephora's website. 
+for products sold on Sephora's website. 
 
 The website is based on the Bootstrap template that can be found through the following link https://startbootstrap.com/template-overviews/landing-page/
 
